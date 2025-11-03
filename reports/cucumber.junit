@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="7.869" tests="11" skipped="0" failures="11" errors="0" timestamp="2025-10-29T20:53:56.723642900Z">
+<testcase classname="As a user I want to navigate to credit card page from navigation bar" name="User should be able to go to credit card page from navigation bar" time="5.028">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=mega-menu-nav, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=mega-menu-nav, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.fdmgroup.pages.NavigationBar.navBarIsDisplayed(NavigationBar.java:29)
+	at com.fdmgroup.stepDefinitions.CreditCardNavigateStepDef.navigation_bar_is_visible(CreditCardNavigateStepDef.java:28)
+	at ✽.Navigation Bar is visible(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F1_CreditCardNavigate.feature:10)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the application.........................................passed
+And Navigation Bar is visible...............................................failed
+When User hovers over credit cards menu.....................................skipped
+Then Extended credit cards menu is displayed................................skipped
+When User clicks on Credit Cards Overview...................................skipped
+Then User should be able to see title "Credit Cards in Canada"..............skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to interact with the credit cards page to know about offers and compare them" name="User can scroll and interact with the credit cards carousel" time="0.006">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, get {url=https://www.rbcroyalbank.com/personal.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, get {url=https://www.rbcroyalbank.com/personal.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.fdmgroup.stepDefinitions.CreditCardNavigateStepDef.user_launches_the_application(CreditCardNavigateStepDef.java:17)
+	at ✽.User launches the application(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F2_CreditCardsInteractions.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the application.........................................failed
+And Navigation Bar is visible...............................................skipped
+When User hovers over credit cards menu.....................................skipped
+Then Extended credit cards menu is displayed................................skipped
+When User clicks on Credit Cards Overview...................................skipped
+Then User should be able to see title "Credit Cards in Canada"..............skipped
+When User scrolls down until the "Best Current Credit Card Offers" section is visible.skipped
+Then The carousel should be visible on the page.............................skipped
+When User drags the carousel to the right...................................skipped
+Then Additional card offers should be displayed.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a user I want to interact with the credit cards page to know about offers and compare them" name="User can scroll and compare credit cards" time="0.006">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, get {url=https://www.rbcroyalbank.com/personal.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, get {url=https://www.rbcroyalbank.com/personal.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.fdmgroup.stepDefinitions.CreditCardNavigateStepDef.user_launches_the_application(CreditCardNavigateStepDef.java:17)
+	at ✽.User launches the application(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F2_CreditCardsInteractions.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the application.........................................failed
+And Navigation Bar is visible...............................................skipped
+When User hovers over credit cards menu.....................................skipped
+Then Extended credit cards menu is displayed................................skipped
+When User clicks on Credit Cards Overview...................................skipped
+Then User should be able to see title "Credit Cards in Canada"..............skipped
+When User scrolls down until the "Popular Credit Cards" section is visible..skipped
+And User clicks on compare checkbox.........................................skipped
+Then Compare Tray is visible................................................skipped
+And "2" rectangle with a plus sign is visible...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to compare credit cards with designated tray and modal" name="User can open compare modal from compare tray" time="0.007">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=compare-tray-content, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=compare-tray-content, using=class name}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.fdmgroup.pages.CreditCardsPage.compareTrayIsDisplayed(CreditCardsPage.java:121)
+	at com.fdmgroup.stepDefinitions.CreditCardInteractionsStepDef.compare_tray_is_visible(CreditCardInteractionsStepDef.java:37)
+	at ✽.Compare Tray is visible(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F3_CreditCardsTrayAndModal.feature:9)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Compare Tray is visible...............................................failed
+When User clicks on rectangle with a plus sign..............................skipped
+Then Compare modal is visible...............................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a user I should be able to compare credit cards with designated tray and modal" name="User can compare credit cards in compare modal" time="0.008">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=compareToolModal, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=compareToolModal, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.fdmgroup.pages.CreditCardsPage.compareModalIsDisplayed(CreditCardsPage.java:139)
+	at com.fdmgroup.stepDefinitions.CreditCardsTrayAndModalStepDef.compare_modal_is_visible(CreditCardsTrayAndModalStepDef.java:17)
+	at ✽.Compare modal is visible(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F3_CreditCardsTrayAndModal.feature:15)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Compare modal is visible..............................................failed
+When User clicks on All cards...............................................skipped
+And User checks "Travel Rewards" checkbox...................................skipped
+And User checks "Travel Insurance" checkbox.................................skipped
+And User clicks on "RBC Avion Visa Infinite" card in compare modal..........skipped
+Then Compare Tray is visible................................................skipped
+And "RBC Avion Visa Infinite" is visible in compare tray....................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a User I should be able to use searchbar and language dropdown in Header" name="Header should appear in blue color" time="0.004">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.fdmgroup.pages.Header.headerIsDisplayed(Header.java:56)
+	at com.fdmgroup.stepDefinitions.HeaderStepDef.header_is_displayed(HeaderStepDef.java:17)
+	at ✽.Header is displayed(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F4_Header.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Header is displayed...................................................failed
+Then Header is of blue color................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a User I should be able to use searchbar and language dropdown in Header" name="User can search for a string in searchbar - #1.1" time="0.004">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.fdmgroup.pages.Header.headerIsDisplayed(Header.java:56)
+	at com.fdmgroup.stepDefinitions.HeaderStepDef.header_is_displayed(HeaderStepDef.java:17)
+	at ✽.Header is displayed(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F4_Header.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Header is displayed...................................................failed
+When User clicks on searchbar and writes "banking"..........................skipped
+Then Search page is displayed...............................................skipped
+And multiple results for search are displayed...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a User I should be able to use searchbar and language dropdown in Header" name="User can search for a string in searchbar - #1.2" time="0.006">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.fdmgroup.pages.Header.headerIsDisplayed(Header.java:56)
+	at com.fdmgroup.stepDefinitions.HeaderStepDef.header_is_displayed(HeaderStepDef.java:17)
+	at ✽.Header is displayed(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F4_Header.feature:13)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Header is displayed...................................................failed
+When User clicks on searchbar and writes "cards"............................skipped
+Then Search page is displayed...............................................skipped
+And multiple results for search are displayed...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a User I should be able to use searchbar and language dropdown in Header" name="User should get error message if searchbar can not fetch any result - #1.1" time="0.005">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.fdmgroup.pages.Header.headerIsDisplayed(Header.java:56)
+	at com.fdmgroup.stepDefinitions.HeaderStepDef.header_is_displayed(HeaderStepDef.java:17)
+	at ✽.Header is displayed(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F4_Header.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Header is displayed...................................................failed
+When User clicks on searchbar and writes "asdjsakse"........................skipped
+Then Search page is displayed...............................................skipped
+And Message is displayed "Sorry, we couldn't find any results" on search page.skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a User I should be able to use searchbar and language dropdown in Header" name="User should get error message if searchbar can not fetch any result - #1.2" time="0.006">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, findElement {value=header, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+	at com.fdmgroup.pages.Header.headerIsDisplayed(Header.java:56)
+	at com.fdmgroup.stepDefinitions.HeaderStepDef.header_is_displayed(HeaderStepDef.java:17)
+	at ✽.Header is displayed(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F4_Header.feature:25)
+]]>
+</failure>
+<system-out><![CDATA[
+Given Header is displayed...................................................failed
+When User clicks on searchbar and writes "$%^@!$"...........................skipped
+Then Search page is displayed...............................................skipped
+And Message is displayed "Sorry, we couldn't find any results" on search page.skipped
+]]></system-out>
+</testcase>
+<testcase classname="As a User I should be able to select sorting options from Drop down menu" name="User should be able to select different options from drop down" time="0.006">
+<failure type="org.openqa.selenium.NoSuchSessionException" message="invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, get {url=https://www.rbcroyalbank.com/personal.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59">
+<![CDATA[org.openqa.selenium.NoSuchSessionException: invalid session id
+Build info: version: '4.37.0', revision: '3c1da1e342'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [86d0a2c1468094fd593a3d3888c04e59, get {url=https://www.rbcroyalbank.com/personal.html}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.59, chrome: {chromedriverVersion: 142.0.7444.59 (4b8153ab58d3..., userDataDir: C:\Users\jilsa\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56234}, goog:processID: 35212, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 142.0.7444.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 86d0a2c1468094fd593a3d3888c04e59
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
+	at com.fdmgroup.stepDefinitions.CreditCardNavigateStepDef.user_launches_the_application(CreditCardNavigateStepDef.java:17)
+	at ✽.User launches the application(file:///C:/Users/jilsa/eclipse-workspace/RBCProject/src/test/resources/Features/F5_TravelCreditCards.feature:8)
+]]>
+</failure>
+<system-out><![CDATA[
+Given User launches the application.........................................failed
+And Navigation Bar is visible...............................................skipped
+When User hovers over credit cards menu.....................................skipped
+Then Extended credit cards menu is displayed................................skipped
+When User clicks on Travel Cards............................................skipped
+Then User should be able to see title "Travel Credit Cards In Canada".......skipped
+Given Sort By Dropdown is visible...........................................skipped
+When User click on dropdown.................................................skipped
+Then multiple dropdown options are displayed................................skipped
+When User selects dropdown option "Popular".................................skipped
+Then Dropdown option "Popular" is selected..................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
