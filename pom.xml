@@ -6,7 +6,7 @@
   <name>RBCProject</name>
   <description>Project to test Credit Card Features of RBC Website with Selenium and Cucumber</description>
   <properties>
-  	<maven.compiler.targer>21</maven.compiler.targer>
+  	<maven.compiler.target>21</maven.compiler.target>
   	<maven.compiler.source>21</maven.compiler.source>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
