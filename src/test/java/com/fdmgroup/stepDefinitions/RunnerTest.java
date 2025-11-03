@@ -19,6 +19,6 @@ import io.cucumber.junit.CucumberOptions;
 		},
 		publish = false
 )
-public class Runner {
+public class RunnerTest {
 
 }
