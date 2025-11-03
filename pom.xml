@@ -5,10 +5,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>RBCProject</name>
   <description>Project to test Credit Card Features of RBC Website with Selenium and Cucumber</description>
-  <configuration>
-    	<source>21</source>
-        <target>21</target>
-  </configuration>
   <properties>
   	<maven.compiler.targer>21</maven.compiler.targer>
   	<maven.compiler.source>21</maven.compiler.source>
