@@ -7,7 +7,7 @@ pipeline {
     }
  
     environment {
-        REPORT_DIR = 'Report'
+        REPORT_DIR = 'reports'
     }
  
     stages {
