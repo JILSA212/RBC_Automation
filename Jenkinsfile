@@ -1,6 +1,5 @@
 pipeline {
     agent any
- 
     tools {
         maven 'Maven 3.9.11'    // <-- must match name under "Manage Jenkins" → "Global Tool Configuration"
         jdk 'JDK_21'           // <-- optional if you configured JDK globally
