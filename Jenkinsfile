@@ -28,7 +28,7 @@ pipeline {
                 echo 'Generating Cucumber report...'
                 cucumber buildStatus: 'UNSTABLE',
                          fileIncludePattern: '**/cucumber.json',
-                         jsonReportDirectory: 'Report',
+                         jsonReportDirectory: 'reports',
                          sortingMethod: 'ALPHABETICAL',
                          trendsLimit: 10,
                          failedFeaturesNumber: 0,
