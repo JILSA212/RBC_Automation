@@ -23,6 +23,18 @@ pipeline {
             }
         }
  
+        stage('Generate Cucumber Report') {
+            steps {
+                echo 'Generating Cucumber report...'
+                cucumber buildStatus: 'UNSTABLE',
+                         fileIncludePattern: '**/cucumber.json',
+                         jsonReportDirectory: 'Report',
+                         sortingMethod: 'ALPHABETICAL',
+                         trendsLimit: 10,
+                         failedFeaturesNumber: 0,
+                         undefinedStepsNumber: 0
+            }
+        }
         stage('Generate Report') {
             steps {
                 echo 'Publishing Cucumber HTML Report...'
@@ -36,7 +48,6 @@ pipeline {
                 ])
             }
         }
-    }
  
     post {
         success {
